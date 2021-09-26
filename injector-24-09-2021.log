@@ -1,0 +1,181 @@
+2021-09-24 11:35:46,399 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 11:35:47,301 - __main__ - INFO - Closed
+2021-09-24 11:36:34,002 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 11:36:34,903 - __main__ - INFO - Closed
+2021-09-24 11:36:52,653 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 11:36:53,555 - __main__ - INFO - Closed
+2021-09-24 11:37:18,080 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 11:37:18,981 - __main__ - INFO - Closed
+2021-09-24 11:38:00,023 - functions.db_controls - INFO - tableWheel_clicked_db
+2021-09-24 11:38:01,604 - __main__ - INFO - plot graph
+2021-09-24 11:38:01,604 - functions.plot_graph - INFO - plotGraph data
+2021-09-24 11:38:01,604 - functions.plot_graph - INFO - plotGraph Pattern
+2021-09-24 11:38:07,668 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 11:38:08,569 - __main__ - INFO - Closed
+2021-09-24 11:38:25,413 - __main__ - INFO - btn connected
+2021-09-24 11:38:25,413 - functions.conn_serial - INFO - Scan Serial
+2021-09-24 11:38:25,423 - functions.conn_serial - INFO - list ports ttyS0 - /dev/ttyS0 - PNP0501
+2021-09-24 11:38:25,423 - functions.conn_serial - INFO - list ports USB Serial - /dev/ttyUSB0 - USB VID:PID=1A86:7523 LOCATION=3-2.4.1
+2021-09-24 11:38:25,423 - functions.conn_serial - INFO - port_no 3 /dev/ttyUSB0
+2021-09-24 11:38:28,356 - functions.conn_serial - INFO - port_no 4 b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 11:38:28,357 - __main__ - INFO - Connecting 1 
+2021-09-24 11:38:28,357 - __main__ - INFO - Connecting 
+2021-09-24 11:38:28,857 - functions.basic_controls - INFO - btn_connect
+2021-09-24 11:38:31,790 - functions.basic_controls - INFO - Connecting 3 b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 11:38:31,790 - functions.basic_controls - INFO - b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 11:38:31,790 - functions.basic_controls - INFO - b'Signal Injection Version
+2021-09-24 11:38:31,790 - functions.basic_controls - INFO - 1.Ca
+2021-09-24 11:38:31,790 - functions.basic_controls - INFO - injector
+2021-09-24 11:38:31,790 - functions.basic_controls - INFO - 6E756E6B776F0411
+2021-09-24 11:38:31,790 - functions.basic_controls - INFO - Licenciado para: TecInject
+2021-09-24 11:38:31,790 - functions.basic_controls - INFO - Licença: 0000.0000
+2021-09-24 11:38:31,790 - functions.basic_controls - INFO - Nome:  teste 200
+2021-09-24 11:38:31,790 - functions.basic_controls - INFO - Descrição:  teste 200 1
+2021-09-24 11:38:31,791 - functions.basic_controls - INFO - 44f68f2a4cc5f8fabbe43900a1dfffef
+2021-09-24 11:38:31,791 - functions.basic_controls - INFO - b'D\xf6\x8f*L\xc5\xf8\xfa\xbb\xe49\x00\xa1\xdf\xff\xef'
+2021-09-24 11:38:31,791 - functions.basic_controls - INFO - injector
+2021-09-24 11:38:31,792 - __main__ - INFO - Connecting ok 
+2021-09-24 11:38:32,794 - __main__ - INFO - Thread 1 is waiting 1 go
+2021-09-24 11:38:32,795 - functions.conn_serial - INFO - serial_read_events: b'Serial : id#'
+2021-09-24 11:38:32,897 - functions.conn_serial - INFO - serial_read_events: b'Ecu Simulator EcuTec Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000,id#,'
+2021-09-24 11:38:37,353 - __main__ - INFO - Closed
+2021-09-24 11:40:21,904 - functions.db_controls - INFO - tableWheel_clicked_db
+2021-09-24 11:40:24,853 - functions.db_controls - INFO - cp_pattern
+2021-09-24 11:40:24,858 - functions.gen_pattern - INFO - page control prior: 1
+2021-09-24 11:40:24,859 - functions.gen_pattern - INFO -  - 21 - 
+2021-09-24 11:40:24,859 - functions.gen_pattern - INFO - -- 1,0,1,0,2,2,2,2,1,0,1,0,1,0,1,0,1,0,1,0,
+2021-09-24 11:40:24,859 - functions.gen_pattern - INFO - page control prior pattern: ['1', '0', '1', '0', '2', '2', '2', '2', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '1', '0', '']
+2021-09-24 11:40:47,979 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 11:40:48,880 - __main__ - INFO - Closed
+2021-09-24 11:42:07,392 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 11:42:08,293 - __main__ - INFO - Closed
+2021-09-24 11:43:03,803 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 11:43:04,704 - __main__ - INFO - Closed
+2021-09-24 11:48:19,290 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 11:48:20,193 - __main__ - INFO - Closed
+2021-09-24 11:51:38,608 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 11:51:39,509 - __main__ - INFO - Closed
+2021-09-24 12:19:06,322 - __main__ - INFO - btn connected
+2021-09-24 12:19:06,322 - functions.conn_serial - INFO - Scan Serial
+2021-09-24 12:19:06,333 - functions.conn_serial - INFO - list ports ttyS0 - /dev/ttyS0 - PNP0501
+2021-09-24 12:19:06,333 - functions.conn_serial - INFO - list ports USB Serial - /dev/ttyUSB0 - USB VID:PID=1A86:7523 LOCATION=3-2.4.1
+2021-09-24 12:19:06,333 - functions.conn_serial - INFO - port_no 3 /dev/ttyUSB0
+2021-09-24 12:19:09,265 - functions.conn_serial - INFO - port_no 4 b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 12:19:09,267 - __main__ - INFO - Connecting 1 
+2021-09-24 12:19:09,267 - __main__ - INFO - Connecting 
+2021-09-24 12:19:09,768 - functions.basic_controls - INFO - btn_connect
+2021-09-24 12:19:12,701 - functions.basic_controls - INFO - Connecting 3 b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 12:19:12,701 - functions.basic_controls - INFO - b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 12:19:12,701 - functions.basic_controls - INFO - b'Signal Injection Version
+2021-09-24 12:19:12,701 - functions.basic_controls - INFO - 1.Ca
+2021-09-24 12:19:12,701 - functions.basic_controls - INFO - injector
+2021-09-24 12:19:12,701 - functions.basic_controls - INFO - 6E756E6B776F0411
+2021-09-24 12:19:12,702 - functions.basic_controls - INFO - Licenciado para: TecInject
+2021-09-24 12:19:12,702 - functions.basic_controls - INFO - Licença: 0000.0000
+2021-09-24 12:19:12,702 - functions.basic_controls - INFO - Nome:  teste 200
+2021-09-24 12:19:12,702 - functions.basic_controls - INFO - Descrição:  teste 200 1
+2021-09-24 12:19:12,702 - functions.basic_controls - INFO - 44f68f2a4cc5f8fabbe43900a1dfffef
+2021-09-24 12:19:12,702 - functions.basic_controls - INFO - b'D\xf6\x8f*L\xc5\xf8\xfa\xbb\xe49\x00\xa1\xdf\xff\xef'
+2021-09-24 12:19:12,702 - functions.basic_controls - INFO - injector
+2021-09-24 12:19:12,704 - __main__ - INFO - Connecting ok 
+2021-09-24 12:19:13,706 - __main__ - INFO - Thread 1 is waiting 1 go
+2021-09-24 12:19:13,707 - functions.conn_serial - INFO - serial_read_events: b'Serial : id#'
+2021-09-24 12:19:13,808 - functions.conn_serial - INFO - serial_read_events: b'Ecu Simulator EcuTec Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000,id#,'
+2021-09-24 12:19:25,173 - functions.db_controls - INFO - tableWheel_clicked_db
+2021-09-24 12:19:27,136 - __main__ - INFO - plot graph
+2021-09-24 12:19:27,136 - functions.plot_graph - INFO - plotGraph data
+2021-09-24 12:19:27,136 - functions.plot_graph - INFO - plotGraph Pattern
+2021-09-24 12:19:32,878 - functions.db_controls - INFO - tableWheel_clicked_db
+2021-09-24 12:24:01,769 - __main__ - INFO - Closed
+2021-09-24 12:24:13,204 - functions.db_controls - INFO - tableWheel_clicked_db
+2021-09-24 12:24:15,046 - functions.db_controls - INFO - tableWheel_clicked_db
+2021-09-24 12:27:41,546 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 12:27:42,448 - __main__ - INFO - Closed
+2021-09-24 12:31:56,841 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 12:31:57,743 - __main__ - INFO - Closed
+2021-09-24 12:32:53,746 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 12:32:54,648 - __main__ - INFO - Closed
+2021-09-24 12:40:03,899 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 12:40:04,801 - __main__ - INFO - Closed
+2021-09-24 12:41:06,555 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 12:41:07,457 - __main__ - INFO - Closed
+2021-09-24 12:44:42,127 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 12:44:43,028 - __main__ - INFO - Closed
+2021-09-24 12:45:24,664 - __main__ - INFO - btn connected
+2021-09-24 12:45:24,665 - functions.conn_serial - INFO - Scan Serial
+2021-09-24 12:45:24,679 - functions.conn_serial - INFO - list ports ttyS0 - /dev/ttyS0 - PNP0501
+2021-09-24 12:45:24,679 - functions.conn_serial - INFO - list ports USB Serial - /dev/ttyUSB0 - USB VID:PID=1A86:7523 LOCATION=3-2.4.1
+2021-09-24 12:45:24,679 - functions.conn_serial - INFO - port_no 3 /dev/ttyUSB0
+2021-09-24 12:45:27,612 - functions.conn_serial - INFO - port_no 4 b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 12:45:27,613 - __main__ - INFO - Connecting 1 
+2021-09-24 12:45:27,613 - __main__ - INFO - Connecting 
+2021-09-24 12:45:28,113 - functions.basic_controls - INFO - btn_connect
+2021-09-24 12:45:31,046 - functions.basic_controls - INFO - Connecting 3 b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 12:45:31,046 - functions.basic_controls - INFO - b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 12:45:31,046 - functions.basic_controls - INFO - b'Signal Injection Version
+2021-09-24 12:45:31,047 - functions.basic_controls - INFO - 1.Ca
+2021-09-24 12:45:31,047 - functions.basic_controls - INFO - injector
+2021-09-24 12:45:31,047 - functions.basic_controls - INFO - 6E756E6B776F0411
+2021-09-24 12:45:31,047 - functions.basic_controls - INFO - Licenciado para: TecInject
+2021-09-24 12:45:31,047 - functions.basic_controls - INFO - Licença: 0000.0000
+2021-09-24 12:45:31,047 - functions.basic_controls - INFO - Nome:  teste 200
+2021-09-24 12:45:31,047 - functions.basic_controls - INFO - Descrição:  teste 200 1
+2021-09-24 12:45:31,047 - functions.basic_controls - INFO - 44f68f2a4cc5f8fabbe43900a1dfffef
+2021-09-24 12:45:31,047 - functions.basic_controls - INFO - b'D\xf6\x8f*L\xc5\xf8\xfa\xbb\xe49\x00\xa1\xdf\xff\xef'
+2021-09-24 12:45:31,047 - functions.basic_controls - INFO - injector
+2021-09-24 12:45:31,049 - __main__ - INFO - Connecting ok 
+2021-09-24 12:45:32,051 - __main__ - INFO - Thread 1 is waiting 1 go
+2021-09-24 12:45:32,052 - functions.conn_serial - INFO - serial_read_events: b'Serial : id#'
+2021-09-24 12:45:32,154 - functions.conn_serial - INFO - serial_read_events: b'Ecu Simulator EcuTec Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000,id#,'
+2021-09-24 12:45:35,397 - functions.db_controls - INFO - tableWheel_clicked_db
+2021-09-24 12:47:54,788 - __main__ - INFO - Closed
+2021-09-24 12:48:16,732 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 12:48:17,634 - __main__ - INFO - Closed
+2021-09-24 12:49:21,017 - __main__ - INFO - btn connected
+2021-09-24 12:49:21,017 - functions.conn_serial - INFO - Scan Serial
+2021-09-24 12:49:21,026 - functions.conn_serial - INFO - list ports ttyS0 - /dev/ttyS0 - PNP0501
+2021-09-24 12:49:21,026 - functions.conn_serial - INFO - list ports USB Serial - /dev/ttyUSB0 - USB VID:PID=1A86:7523 LOCATION=3-2.4.1
+2021-09-24 12:49:21,026 - functions.conn_serial - INFO - port_no 3 /dev/ttyUSB0
+2021-09-24 12:49:23,957 - functions.conn_serial - INFO - port_no 4 b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 12:49:23,958 - __main__ - INFO - Connecting 1 
+2021-09-24 12:49:23,958 - __main__ - INFO - Connecting 
+2021-09-24 12:49:24,459 - functions.basic_controls - INFO - btn_connect
+2021-09-24 12:49:27,392 - functions.basic_controls - INFO - Connecting 3 b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 12:49:27,392 - functions.basic_controls - INFO - b'Signal Injection Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000, teste 200, teste 200 1, '
+2021-09-24 12:49:27,393 - functions.basic_controls - INFO - b'Signal Injection Version
+2021-09-24 12:49:27,393 - functions.basic_controls - INFO - 1.Ca
+2021-09-24 12:49:27,393 - functions.basic_controls - INFO - injector
+2021-09-24 12:49:27,393 - functions.basic_controls - INFO - 6E756E6B776F0411
+2021-09-24 12:49:27,393 - functions.basic_controls - INFO - Licenciado para: TecInject
+2021-09-24 12:49:27,393 - functions.basic_controls - INFO - Licença: 0000.0000
+2021-09-24 12:49:27,393 - functions.basic_controls - INFO - Nome:  teste 200
+2021-09-24 12:49:27,393 - functions.basic_controls - INFO - Descrição:  teste 200 1
+2021-09-24 12:49:27,393 - functions.basic_controls - INFO - 44f68f2a4cc5f8fabbe43900a1dfffef
+2021-09-24 12:49:27,393 - functions.basic_controls - INFO - b'D\xf6\x8f*L\xc5\xf8\xfa\xbb\xe49\x00\xa1\xdf\xff\xef'
+2021-09-24 12:49:27,393 - functions.basic_controls - INFO - injector
+2021-09-24 12:49:27,395 - __main__ - INFO - Connecting ok 
+2021-09-24 12:49:28,397 - __main__ - INFO - Thread 1 is waiting 1 go
+2021-09-24 12:49:28,398 - functions.conn_serial - INFO - serial_read_events: b'Serial : id#'
+2021-09-24 12:49:28,499 - functions.conn_serial - INFO - serial_read_events: b'Ecu Simulator EcuTec Version,1.Ca,injector,6E756E6B776F0411,TecInject,0000.0000,id#,'
+2021-09-24 12:49:32,669 - functions.db_controls - INFO - tableWheel_clicked_db
+2021-09-24 12:49:34,414 - __main__ - INFO - new nw
+2021-09-24 12:49:34,415 - functions.basic_controls - INFO - New Pattern: nw241,3,2,2,2,3,3,3,3,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,3,2,3,2,3,2,3,2,3,2,3,2,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,3,2,3,2,3,2,3,2,3,2,3,2,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,#
+2021-09-24 12:49:36,123 - functions.conn_serial - INFO - serial_read_events: b'Serial : nw241,3,2,2,2,3,3,3,3,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,3,2,3,2,3,2,3,2,3,2,3,2,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,3,2,3,2,3,2,3,2,3,2,3,2,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,#'
+2021-09-24 12:49:36,223 - functions.conn_serial - INFO - serial_read_events: b'pa,stop'
+2021-09-24 12:49:42,139 - functions.basic_controls - INFO - New Pattern: pn,7.5.30 VW,7.5.30 VW,
+2021-09-24 12:49:42,950 - functions.conn_serial - INFO - serial_read_events: b'Serial : pn,7.5.30 VW,7.5.30 VW,#'
+2021-09-24 12:49:52,351 - __main__ - INFO - new nw finished
+2021-09-24 12:49:56,629 - __main__ - INFO - btn connected
+2021-09-24 12:49:56,829 - __main__ - INFO - Disconnecting
+2021-09-24 12:52:14,685 - __main__ - INFO - Closed
+2021-09-24 12:55:55,422 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 12:55:56,324 - __main__ - INFO - Closed
+2021-09-24 12:57:53,349 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 12:57:54,251 - __main__ - INFO - Closed
+2021-09-24 12:59:09,174 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 12:59:10,076 - __main__ - INFO - Closed
+2021-09-24 15:23:04,528 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 15:23:05,429 - __main__ - INFO - Closed
+2021-09-24 19:03:51,110 - functions.db_controls - INFO - tableWheel_clicked_db
+2021-09-24 21:56:38,292 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-24 21:56:39,194 - __main__ - INFO - Closed
