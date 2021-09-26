@@ -126,9 +126,9 @@ def serial_read_events(input, value_serial):
                 logger.info(input.prog_id[1])  # versão
                 logger.info(input.prog_id[2])  # tipo
                 logger.info(input.prog_id[3])  # UniqueId
-                logger.info("Licenciado para: " + input.prog_id[4])  # Owner
+                logger.info("Licenciado para : " + input.prog_id[4])  # Owner
                 logger.info("Licença: " + input.prog_id[5])  # License
-            input.prog_id = str(input.value_serial).split(",")
+            input.prog_id =  str(input.value_serial).split(",")
             input.hash_id = hashlib.md5(input.prog_id[3].encode())  # hashMD5 UniqueId
             hex_dig = input.hash_id.hexdigest()
             # logger.infostr(hex_dig)
