@@ -1,0 +1,14 @@
+2021-09-26 11:45:27,487 - functions.get_css.get_qtcss - INFO - css 1
+2021-09-26 11:45:27,487 - functions.get_css.get_qtcss - INFO - css 2
+2021-09-26 11:45:27,488 - functions.get_css.get_qtcss - INFO - css 3
+2021-09-26 11:45:27,488 - functions.get_css.get_qtcss - INFO - css 4
+2021-09-26 11:45:27,488 - functions.get_css.get_qtcss - INFO - css 5
+2021-09-26 11:45:33,727 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-26 11:45:34,629 - __main__ - INFO - Closed
+2021-09-26 11:46:06,601 - functions.get_css.get_qtcss - INFO - css 1
+2021-09-26 11:46:06,601 - functions.get_css.get_qtcss - INFO - css 2
+2021-09-26 11:46:06,601 - functions.get_css.get_qtcss - INFO - css 3
+2021-09-26 11:46:06,602 - functions.get_css.get_qtcss - INFO - css 4
+2021-09-26 11:46:06,602 - functions.get_css.get_qtcss - INFO - css 5
+2021-09-26 11:46:13,341 - functions.basic_controls - INFO - Error connecting btn send:Attempting to use a port that is not open
+2021-09-26 11:46:14,243 - __main__ - INFO - Closed
