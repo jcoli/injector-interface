@@ -38,6 +38,7 @@ from functions.gen_pattern import btn_next, btn_prior, btn_gen_pattern, \
 import functions.btn_controls
 from functions.plot_graph import plotgraph, plotgraph_pattern, plotgraph_gen_pattern, plotgraph_data
 from functions.get_css.get_qtcss import get_style, available_styles
+from functions.up_firmware import upload_firmware
 
 
 import logging
@@ -74,6 +75,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     inRx = False
     stopGo = False
     value_serial = ""
+    port = ""
     rpm_min = 0
     rpm_max = 7500
     next_rpm = 0
@@ -142,6 +144,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.cb012_t.clicked.connect(self.cb012_t_clicked)
         self.cb013_t.clicked.connect(self.cb013_t_clicked)
         self.cb014_t.clicked.connect(self.cb014_t_clicked)
+        self.btn_firmware.clicked.connect(self.upload_firmware)
         self.btn_graph_pat.clicked.connect(self.plot_pat_graph_clicked)
         self.btn_graph_data.clicked.connect(self.plot_data_graph_clicked)
 
@@ -167,14 +170,31 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         # self.model = QSqlTableModel(self, self.db)
         if not self.db.open():
             logger.info("db error")
-
-
         self.initializedModelWheel()
         self.initializedModelChoose()
         timer: object = QTimer(self)
         timer.timeout.connect(self.show_time)
         timer.start(1000)
         # self.t1.start()
+
+    def upload_firmware(self):
+        if not self.conected:
+            try:
+                # port = scan_serial(window)
+                # logger.info("Firmware " + port[0])
+                # upload_text = 'arduino/avrdude.exe -C arduino/avrdude.conf -v -patmega2560 -cwiring '
+                # upload_text += '-P '+port[0]
+                # upload_text += ' -b115200 -D -Uflash:w:arduino/firmware.hex'
+                # logger.info("Firmware 2 " + upload_text)
+                # res = QtCore.QProcess.startDetached(upload_text)
+                # if res:
+                #     logger.info("Firmware 2 OK ")
+                # # QtCore.QProcess.startDetached(r"arduino/avrdude -C arduino/avrdude.conf -v -patmega2560 -cwiring -PCOM14 -b115200 -D -Uflash:w:arduino/firmware.hex")
+                # logger.info("Firmware 2")
+                upload_firmware(window)
+            except Exception as e:
+                if self.debug:
+                    logger.info("Error Firmware " + str(e))
 
     def test(self):
         logger.info("teeth changed")
@@ -345,15 +365,15 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             logger.info('btn connected')
         try:
             if not self.conected:
-                port = scan_serial(window)
+                self.port = scan_serial(window)
                 if self.debug:
                     logger.info("Connecting 1 ")
-                if port is not None:
+                if self.port is not None:
                     if self.debug:
                         logger.info("Connecting ")
                     time.sleep(0.5)
 
-                    ret_txt = btn_connect(window, port, self.ser, self.prog_id)
+                    ret_txt = btn_connect(window, self.port, self.ser, self.prog_id)
                     if ("ok" in ret_txt):
                         if self.debug:
                             logger.info("Connecting ok ")

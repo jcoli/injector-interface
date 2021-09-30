@@ -45,14 +45,9 @@ def get_style(style_sheet):
     try:
         #mod = importlib.import_module("." + style_sheet, __name__)
         #hasattr(mod, "qt_resource_name")
-        if debug:
-            logger.info('css 2')
         f = QFile("forms/css/%s/style.qss" % style_sheet)
-        logger.info('css 3')
         f.open(QFile.ReadOnly | QFile.Text)
-        logger.info('css 4')
         ts = QTextStream(f)
-        logger.info('css 5')
         stylesheet = ts.readAll()
     except ImportError as e:
         logger.info("Style sheet not available. Use available_styles() to check for valid styles")

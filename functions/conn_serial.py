@@ -82,8 +82,6 @@ def scan_serial(input):
         # logger.info("Connected " + str(dig))
         return ard_port
 
-
-
 def try_port(portStr):
     """returns boolean for port availability"""
     """test if has arduino due in port"""
