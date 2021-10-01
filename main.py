@@ -155,6 +155,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.lineEdit_dentes.setValidator(QIntValidator(16, 60))
         self.status_bar.setStyleSheet("background-color: rgb(244, 255, 16);color: rgb(0, 0, 0);")
         self.status_bar.showMessage('Injetor Desconectado')
+        self.line.setStyleSheet("color: rgb(255, 85, 0);")
+        self.line.setLineWidth(3)
         self.label_led_connected_2.hide()
         self.tableWheel.clicked.connect(self.tableWheel_clicked)
         self.tableChoose.clicked.connect(self.tableChoose_clicked)

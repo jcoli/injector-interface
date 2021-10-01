@@ -70,7 +70,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="tabPrincipal">
      <attribute name="title">
@@ -5483,6 +5483,9 @@ background-color: rgb(38, 50, 56);</string>
          <height>10</height>
         </rect>
        </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 85, 0);</string>
        </property>
@@ -5526,6 +5529,9 @@ background-color: rgb(38, 50, 56);</string>
          <width>118</width>
          <height>10</height>
         </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(8, 255, 144);</string>

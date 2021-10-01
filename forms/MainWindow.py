@@ -1560,6 +1560,7 @@ class Ui_MainWindow(object):
         self.label_50.setObjectName("label_50")
         self.line = QtWidgets.QFrame(self.frame_19)
         self.line.setGeometry(QtCore.QRect(40, 552, 118, 10))
+        self.line.setAutoFillBackground(True)
         self.line.setStyleSheet("color: rgb(255, 85, 0);")
         self.line.setFrameShadow(QtWidgets.QFrame.Plain)
         self.line.setLineWidth(3)
@@ -1574,6 +1575,7 @@ class Ui_MainWindow(object):
         self.line_2.setObjectName("line_2")
         self.line_3 = QtWidgets.QFrame(self.frame_19)
         self.line_3.setGeometry(QtCore.QRect(280, 550, 118, 10))
+        self.line_3.setAutoFillBackground(True)
         self.line_3.setStyleSheet("color: rgb(8, 255, 144);")
         self.line_3.setFrameShadow(QtWidgets.QFrame.Plain)
         self.line_3.setLineWidth(3)
@@ -1604,7 +1606,7 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.status_bar)
 
         self.retranslateUi(MainWindow)
-        self.tab_bar.setCurrentIndex(0)
+        self.tab_bar.setCurrentIndex(3)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
